@@ -7,6 +7,8 @@
 
 namespace Mouf\Utils\Log\ErrorLogLogger;
 
+use Mouf\Utils\Log\LogInterface\LogInterface;
+
 /**
  * A logger class that writes messages into the php error_log.
  * Note: any parameter passed in third parameter (in the $additional_parameters array) will be ignored
