@@ -7,7 +7,7 @@
 
 namespace Mouf\Utils\Log;
 
-use Mouf\Utils\Log\LogInterface\LogInterface;
+use Mouf\Utils\Log\LogInterface;
 
 /**
  * A logger class that writes messages into the php error_log.
