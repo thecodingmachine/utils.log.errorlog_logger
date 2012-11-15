@@ -3,7 +3,7 @@
     "description": "This package contains a logger that logs messages directly to the PHP error log (using the error_log PHP function)",
     "keywords": ["log", "logger", "error_log"],
     "homepage": "https://github.com/thecodingmachine/utils.log.errorlog_logger",
-    "type": "library",
+    "type": "mouf-library",
     "license": "MIT",
     "authors": [
         {
@@ -23,5 +23,13 @@
         "psr-0": {
             "Mouf": "src/"
         }
+    },
+    "extra": {
+    	"install": [
+    		{
+    			"type": "file",
+    			"file": "src/install.php"
+    		}
+    	]
     }
 }
