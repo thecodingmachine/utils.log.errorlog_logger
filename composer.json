@@ -14,7 +14,8 @@
     ],
     "require": {
     	"php": ">=5.3.0",
-    	"mouf/utils.log.log_interface": ">=2.0-dev,<3.0"
+    	"mouf/utils.log.log_interface": ">=2.0-dev,<3.0",
+    	"mouf/mouf": ">=2.0"
     },
     "provide": {
     	"mouf/utils.log.logger": "1.0"
