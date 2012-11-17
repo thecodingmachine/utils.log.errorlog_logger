@@ -5,7 +5,7 @@
  * See the file LICENSE.txt for copying permission.
  */
 
-require_once __DIR__."/../../autoload.php";
+require_once __DIR__."/../../../autoload.php";
 
 use Mouf\Actions\InstallUtils;
 use Mouf\MoufManager;
