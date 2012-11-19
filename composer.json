@@ -26,11 +26,13 @@
         }
     },
     "extra": {
-    	"install": [
-    		{
-    			"type": "file",
-    			"file": "src/install.php"
-    		}
-    	]
+    	"mouf": {
+	    	"install": [
+	    		{
+	    			"type": "file",
+	    			"file": "src/install.php"
+	    		}
+	    	]
+    	}
     }
 }
