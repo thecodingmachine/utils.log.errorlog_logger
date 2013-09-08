@@ -1,7 +1,11 @@
 What is this package
 ====================
 
-This package contains an logger that logs messages in the PHP error log, using the error_log function.
+<div class="alert"><strong>DEPRECATED!</strong> Warning, this package is deprecated in favor of
+<em>mouf/utils.log.psr.errorlog_logger</em> that implements the same logger, but with PSR-3
+compatibility.</div>
+
+This package contains a logger that logs messages in the PHP error log, using the error_log function.
 
 Mouf package
 ------------
