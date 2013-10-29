@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Mouf": "src/"
+            "Mouf\\Utils\\Log\\": "src/"
         }
     },
     "extra": {
