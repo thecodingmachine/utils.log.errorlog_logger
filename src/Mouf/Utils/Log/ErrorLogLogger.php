@@ -119,7 +119,7 @@ class ErrorLogLogger implements LogInterface {
 					$str .= $step['class'].$step['type'].$step['function'].'(';
 				}
 	
-				if (is_array($step['args'])) {
+				if (array_key_exists('args', $step) && is_array($step['args'])) {
 					$drawn = false;
 					$params = '';
 					foreach ( $step['args'] as $param)
